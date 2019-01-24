@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "index/index"
+  ],
+  "usingComponents": {
+    "v-toast": "./components/v-toast/v-toast",
+    "v-timercode": "./components/v-timercode/v-timercode"
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

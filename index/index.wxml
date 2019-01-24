@@ -1,0 +1,7 @@
+
+  <v-toast id='toast1'></v-toast>
+  <v-toast id='toast3' btnColor="red" bgColor="rgba(0,50,9,0.5)"></v-toast>
+  <v-toast id='toast2' position='bottom' btnColor="red" btnText="关闭此按钮" fontColor="yellow"></v-toast>
+  <button class="toast" bindtap='showToast1'>顶部默认弹框1</button>
+  <button class="toast" bindtap='showToast2'>顶部不会自动关闭的弹框2</button>
+  <button class="toast" bindtap='showToast3'>底部自定义颜色弹框3</button>

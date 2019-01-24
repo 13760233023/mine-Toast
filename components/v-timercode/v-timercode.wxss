@@ -1,0 +1,112 @@
+.v-class-identifying {
+  width: 38%;
+  height: 100%;
+  position: absolute;
+  border-bottom: 2rpx solid rgb(245, 245, 245);
+  text-align: center;
+  top: 0rpx;
+  z-index: 2;
+  color: rgb(128, 128, 128);
+  background: #fff;
+  border-left: 2rpx solid whitesmoke;
+  right: 0rpx;
+}
+
+.v-class-btnhover {
+  background-color: #ffb814 !important;
+}
+
+.v-class-white-hover-color {
+  background: #f9f9f9f7 !important;
+}
+
+.v-class-up input {
+  padding: none !important;
+}
+
+.v-class-identifying button {
+  font-size: 15px;
+  display: block;
+  line-height: 88rpx;
+}
+
+.v-class-bg-model {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  background: rgb(98, 98, 98);
+  opacity: 0.8;
+}
+
+.v-class-img-code {
+  text-align: left;
+  background: #fff;
+  width: 95%;
+  z-index: 999;
+  position: fixed;
+  top: 350rpx;
+  left: 20rpx;
+  box-sizing: border-box;
+  padding: 40rpx;
+}
+
+.v-class-img-code input {
+  background: #fff;
+  border-left: 2rpx solid #ffd000;
+  border-top: 2rpx solid #ffd000;
+  border-bottom: 2rpx solid #ffd000;
+  border-radius: 0rpx;
+  padding-left: 30rpx;
+  padding: 0 !important;
+  width: 65%;
+  margin-left:0;
+  height: 90rpx;
+}
+
+.v-class-img-code .v-class-code {
+  width: 33%;
+  height: 90rpx;
+  position: absolute;
+  text-align: center;
+  top: 66rpx;
+  z-index: 999;
+  color: rgb(128, 128, 128);
+  background: #fff;
+  line-height: 34rpx;
+  border-left: 4rpx solid whitesmoke;
+  right: 42rpx;
+  border-top: 2rpx solid #ffd000;
+  border-bottom: 2rpx solid #ffd000;
+  border-right: 2rpx solid #ffd000;
+}
+
+.v-class-opare {
+  display: flex;
+  margin: 52rpx 0 26rpx 0;
+}
+
+.v-class-img-code .v-class-margin-top {
+  margin-top: 26rpx;
+  padding-left: 20rpx;
+}
+
+.v-class-opare .v-class-btn1, .v-class-btn2 {
+  background: #fff;
+  border: 2rpx solid #ffd000;
+  border-radius: 50rpx;
+  width: 280rpx;
+  height: 96rpx;
+}
+
+.v-class-opare .v-class-btn1 {
+  color: #ffc814;
+}
+
+.v-class-opare .v-class-btn2 {
+  background: #ffcf00;
+  color: #fff;
+}

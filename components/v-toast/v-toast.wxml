@@ -1,0 +1,15 @@
+<view wx:if='{{show}}' class='v-class-mytoast' style='{{position}}:-100rpx;' animation='{{animationData}}'>
+  <view class='v-class-box' style="background:{{bgColor}}">
+    <view class='v-class-content-box' style="color:{{fontColor}};">
+      <image wx:if="{{type!=''}}" mode='aspectFit' src='{{type}}' class='v-class-icon' />
+      <view class='v-class-font-content'>
+        {{content}}
+      </view>
+    </view>
+    <view style='flex:1;'>
+      <button class='v-class-btn' bindtap='close' style="color:{{btnColor}};">
+        {{btnText}}
+      </button>
+    </view>
+  </view>
+</view>
