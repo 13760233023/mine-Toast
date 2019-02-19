@@ -29,5 +29,10 @@ Page({
       duration:5000,
       content: '请输入正确密码'
     });
+  },
+  test:function(){
+    wx.navigateTo({
+      url: '../test/test'
+    })
   }
 })

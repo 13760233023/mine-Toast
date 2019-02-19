@@ -1,0 +1,7 @@
+<!--test/test.wxml-->
+<view>
+  <v-components-test num="6" bind:getId='getId' id="components">
+  <view style="margin-bottom:20rpx;">这里是插入到组件slot中的内容</view>
+  </v-components-test>
+  {{get_id}}
+</view>

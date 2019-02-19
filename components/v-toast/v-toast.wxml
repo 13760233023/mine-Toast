@@ -6,7 +6,7 @@
         {{content}}
       </view>
     </view>
-    <view style='flex:1;'>
+    <view>
       <button class='v-class-btn' bindtap='close' style="color:{{btnColor}};">
         {{btnText}}
       </button>

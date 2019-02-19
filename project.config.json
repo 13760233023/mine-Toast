@@ -12,7 +12,7 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.5.1",
+	"libVersion": "2.6.0",
 	"appid": "wxc9fa618d8a6a0018",
 	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8Ftoast%E7%BB%84%E5%BB%BA",
 	"debugOptions": {
@@ -28,13 +28,23 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "test",
+					"pathName": "test/test"
+				}
+			]
 		}
 	}
 }

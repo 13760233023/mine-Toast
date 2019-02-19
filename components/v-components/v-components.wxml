@@ -1,0 +1,7 @@
+<view>
+  <slot></slot>
+  <view>test组建</view>
+  <view>父传子的值：{{num}}</view>
+  <button bindtap='postId'>子传父</button>
+
+</view>

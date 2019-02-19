@@ -8,6 +8,7 @@
   display: flex;
   width: 100%;
   align-items: center;
+  justify-content:space-between;
   padding: 10rpx 16rpx 10rpx 20rpx;
   text-align: center;
   z-index: 999;
@@ -26,7 +27,6 @@ button::after {
   display: flex;
   align-items: center;
   text-align: left;
-  flex:5;
 }
 
 .v-class-mytoast .v-class-font-content {
